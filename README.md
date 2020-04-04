@@ -1,11 +1,11 @@
 ![](https://raw.githubusercontent.com/balena-io-projects/balena-sound/master/images/balenaSound-logo.png)
 
-# Bluetooth, Airplay and Spotify audio streaming for any audio device
+# Bluetooth, UPnP, Airplay and Spotify audio streaming for any audio device
 
 **Starter project enabling you to add multi-room audio streaming via Bluetooth, Airplay or Spotify Connect to any old speakers or Hi-Fi using just a Raspberry Pi.**
 
 **Features**
-- **Bluetooth, Airplay and Spotify Connect support**: Stream audio from your favourite music services or directly from your smartphone/computer using bluetooth.
+- **Bluetooth, UPnP, Airplay and Spotify Connect support**: Stream audio from your favourite music services or directly from your smartphone/computer using bluetooth.
 - **Multi-room synchronous playing**: Play perfectly synchronized audio on multiple devices all over your place.
 
 ### Hardware required
@@ -50,6 +50,7 @@ After the application has pushed and the device has downloaded the latest change
 
 Connect to your balenaSound device:
 * If using Bluetooth: search for your device on your phone or laptop and pair.
+* If using UPnP: open a UPnP app like [BubbleUPnP](https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp) and select the balenaSound device as an alternate output.
 * If using Airplay: select the balenaSound device from your audio output options.
 * If using Spotify Connect: open Spotify and choose the balenaSound device as an alternate output.
 * The `balenaSound xxxx` name is used by default, where `xxxx` will be the first 4 characters of the device ID in the balenaCloud dashboard.
@@ -63,7 +64,6 @@ Let the music play!
 You can configure some features of balenaSound by using environment variables. This can be set in the balena dashboard: navigate to dashboard -> your app -> Environment variables. Read more about environment variables [here](https://www.balena.io/docs/learn/manage/serv-vars/#fleet-environment-and-service-variables).
 
 ![Setting the device name](images/device-name-config.png)
-
 
 ### Change device name
 
@@ -126,6 +126,7 @@ If you are using a DAC board, you will need to make a couple of changes to the d
 * Connect the audio output of your Pi to the AUX input on your Hi-Fi or speakers
 * The `balenaSound bluetooth/airplay/spotify xxxx` name is used by default, where `xxxx` will be the first 4 characters of the device ID in the balenaCloud dashboard.
 * If using Bluetooth: search for your device on your phone or laptop and pair.
+* If using UPnP: open a UPnP app like [BubbleUPnP](https://play.google.com/store/apps/details?id=com.bubblesoft.android.bubbleupnp) and select the balenaSound device as an alternate output.
 * If using Airplay: select the balenaSound device from your audio output options.
 * If using Spotify Connect: open Spotify and choose the balenaSound device as an alternate output.
 * Let the music play!
