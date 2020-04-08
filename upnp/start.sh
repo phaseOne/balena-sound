@@ -20,4 +20,4 @@ if [[ -n $DISABLE_MULTI_ROOM ]] || [[ $BALENA_DEVICE_TYPE == "raspberry-pi" ]]; 
   rm /root/.asoundrc
 fi
 
-exec /usr/bin/gmediarender -f "$BLUETOOTH_DEVICE_NAME" --port=49494 --logfile=stdout
+exec /usr/bin/gmediarender -f "$DEVICE_NAME" --port=49494 --logfile=stdout
