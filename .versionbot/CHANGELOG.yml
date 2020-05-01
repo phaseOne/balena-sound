@@ -1,4 +1,21 @@
 - commits:
+    - subject: Add README info
+      hash: d982a73b71306bd919279ce9f5877786a0a06fe4
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Alex
+    - subject: Add UPnP
+      hash: b3dcb6582dca3fdf661d6c29cbfe6142b68bfa52
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Alex
+  version: 3.0.0
+  date: 2020-05-01T19:43:57.360Z
+- commits:
     - subject: Refactor documentation to adapt repo to Landr
       hash: c2d1a2b4be6cf424c2ae7ceb1416a35499614b5a
       body: ''
