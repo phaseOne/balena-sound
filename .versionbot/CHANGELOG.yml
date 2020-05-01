@@ -1,4 +1,14 @@
 - commits:
+    - subject: Add snapcast control
+      hash: abf01efc28e75f8b49ed8601e2429c7ab66b27a7
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Alex
+  version: 2.3.0
+  date: 2020-05-01T19:44:27.354Z
+- commits:
     - subject: Refactor documentation to adapt repo to Landr
       hash: c2d1a2b4be6cf424c2ae7ceb1416a35499614b5a
       body: ''
