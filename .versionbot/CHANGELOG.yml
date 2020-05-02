@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add 3D models
+      hash: d9ff79a132dd0326365e76de0d6db89b9350a44a
+      body: |
+        Init commit. 
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Alex
+  version: 2.3.0
+  date: 2020-05-02T09:09:32.600Z
+- commits:
     - subject: Refactor documentation to adapt repo to Landr
       hash: c2d1a2b4be6cf424c2ae7ceb1416a35499614b5a
       body: ''
