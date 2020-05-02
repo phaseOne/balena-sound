@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add config.yml
+      hash: eeb817b32d5a99b1411f6508de6e9fd68492bad9
+      body: |
+        People should follow our templates.
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Alex
+  version: 2.2.4
+  date: 2020-05-02T08:57:15.193Z
+- commits:
     - subject: Refactor documentation to adapt repo to Landr
       hash: c2d1a2b4be6cf424c2ae7ceb1416a35499614b5a
       body: ''
