@@ -5,4 +5,8 @@ RUN install_packages shairport-sync
 
 COPY start.sh /usr/src/
 
+ENV ALSA_CARD_ID=0
+COPY .asoundrc.tmpl .asoundrc.tmpl
+RUN envsubst < .asoundrc.tmpl > /root/.asoundrc || cat /root/.asoundrc
+
 CMD [ "/bin/bash", "/usr/src/start.sh" ]
