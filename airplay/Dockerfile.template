@@ -7,6 +7,6 @@ COPY start.sh /usr/src/
 
 ENV ALSA_CARD_ID=0
 COPY .asoundrc.tmpl .asoundrc.tmpl
-RUN envsubst < .asoundrc.tmpl > /root/.asoundrc || cat /root/.asoundrc
+RUN 
 
-CMD [ "/bin/bash", "/usr/src/start.sh" ]
+CMD [ "/bin/sh", "-c" "envsubst < .asoundrc.tmpl > /root/.asoundrc && /usr/src/start.sh || cat /root/.asoundrc" ]
